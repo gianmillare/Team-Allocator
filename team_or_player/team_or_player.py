@@ -28,4 +28,7 @@ while True:
 
     else:
         for i in range(0, 24, 2):
-            print(players[i] + " vs " + players[i+1])
+            print("\n" + players[i] + " vs " + players[i+1])
+
+            start = random.randrange(i, i+2)
+            print(players[start] + " will begin the match!")
