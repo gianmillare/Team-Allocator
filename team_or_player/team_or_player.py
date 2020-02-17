@@ -25,3 +25,7 @@ while True:
         print("\nThe roster for Team 2 is: ")
         for player in team2:
             print(player)
+
+    else:
+        for i in range(0, 24, 2):
+            print(players[i] + " vs " + players[i+1])
