@@ -11,13 +11,24 @@ players = ["Geoff", "David", "Alayah", "Natasha",
            "Jim", "Janice", "Sandra", "Veronica"]
 
 
-random.shuffle(players)
+while True:
 
-team1 = players[:len(players)//2]
+    random.shuffle(players)
 
-print("The captain for Team 1 is: " + random.choice(team1))
+    team1 = players[:len(players)//2]
+    print("The captain for Team 1 is: " + random.choice(team1))
+    print("Team 1: ")
 
-print("Team 1: ")
+    for player in team1:
+        print(player)
 
-for player in team1:
-    print(player)
+
+    print("-------------------------------------------------------")
+
+
+    team2 = players[:len(players)//2]
+    print("The captain for Team 2 is: " + random.choice(team2))
+    print("Team 2: ")
+
+    for player in team2:
+        print(player)
