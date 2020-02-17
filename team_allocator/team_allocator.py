@@ -32,3 +32,8 @@ while True:
 
     for player in team2:
         print(player)
+
+response = input("Would you like to pick teams again? Type 'y' for YES and 'n' for NO: ")
+
+if response --"n":
+    break
