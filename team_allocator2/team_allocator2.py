@@ -25,6 +25,12 @@ while True:
     for player in team2:
         print(player)
 
+    team3 = players[(len(players)//3)*2:]
+    print("\nThe captain for Team 3 is: " + random.choice(team3))
+    print("\nThe roster for Team 3 is: ")
+    for player in team3:
+        print(player)
+
     response = input("Would you like to pick teams again? Type 'y' for YES or 'n' for NO: ")
 
     if response == "n":
